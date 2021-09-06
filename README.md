@@ -1,27 +1,33 @@
-# Deprecated! 
+# Supervised OpenIE baseline and evaluation code
+
+The ACoLi fork has been created as a point of reference for the OpenIE benchmark data in the `data/` folder, see attribution there. The remainder of the readme is about the *code*.
+
+## Data
+
+Data is created from [QASRL]{https://dada.cs.washington.edu/qasrl/} as described by Stanovsky and Dagan (2016):
+
+    @inproceedings{stanovsky-dagan-2016-creating,
+        title = "Creating a Large Benchmark for Open Information Extraction",
+        author = "Stanovsky, Gabriel  and
+          Dagan, Ido",
+        booktitle = "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+        month = nov,
+        year = "2016",
+        address = "Austin, Texas",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/D16-1252",
+        doi = "10.18653/v1/D16-1252",
+        pages = "2300--2305",
+    }
+
+## Code 
+
 The maintenance of this project has moved to the [AllenNLP framework](https://allennlp.org/). <br>
 Where you can use [the model and an online demo](http://demo.allennlp.org/open-information-extraction).
 This [thin wrapper](https://github.com/gabrielStanovsky/supervised_oie_wrapper) may also be useful if you want to run the pretrained model.
 
+Supervised OIE code for training a supervised Neural Open IE model, as described in a [NAACL2018 paper](https://gabrielstanovsky.github.io/assets/papers/naacl18long/paper.pdf).<br>
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [supervised-oie](#supervised-oie)
-  - [Citing :bookmark:](#citing-bookmark)
-  - [Quickstart :hatching_chick:](#quickstart-hatching_chick)
-  - [More scripts :bicyclist:](#more-scripts-bicyclist)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# supervised-oie
-Code for training a supervised Neural Open IE model, as described in our [NAACL2018 paper](https://gabrielstanovsky.github.io/assets/papers/naacl18long/paper.pdf).<br>
-:construction: *Still under construction* :construction:
-
-
-Citing :bookmark:
-------
 If you use this software, please cite:
 ```
 @InProceedings{Stanovsky2018NAACL,
